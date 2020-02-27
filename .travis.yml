@@ -35,8 +35,8 @@ cache:
 
 before_script:
   # Prepare pre-accepted licenses to not be prompted at installation
-  - mkdir -p "$ANDROID_HOME/licenses"
-  - cp ./google-licenses/* "$ANDROID_HOME/licenses/"
+#  - mkdir -p "$ANDROID_HOME/licenses"
+#  - cp ./google-licenses/* "$ANDROID_HOME/licenses/"
   - echo $TRAVIS_BRANCH
   - echo $TRAVIS_TAG
 script:
