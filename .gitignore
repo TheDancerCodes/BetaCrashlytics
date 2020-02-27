@@ -62,3 +62,5 @@ fastlane/readme.md
 
 app/fabric.properties
 
+# Keystore file
+beta-crashlytics.keystore
