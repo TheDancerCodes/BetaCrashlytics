@@ -40,4 +40,5 @@ before_script:
   - echo $TRAVIS_BRANCH
   - echo $TRAVIS_TAG
 script:
-  - ./gradlew build check
+#  - ./gradlew build check
+  - ./gradlew build test
