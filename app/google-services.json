@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "929183843564",
+    "firebase_url": "https://beta-crashlytics-7334a.firebaseio.com",
+    "project_id": "beta-crashlytics-7334a",
+    "storage_bucket": "beta-crashlytics-7334a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:929183843564:android:d93e277704a2a719",
+        "android_client_info": {
+          "package_name": "com.thedancercodes.betacrashlytics"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "929183843564-1hvcgv5ee9paapo24mrh3d1s1bvm63ke.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB__DOb6_JxGXGTXW1-dxG9pSG1JwTgt2A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "929183843564-1hvcgv5ee9paapo24mrh3d1s1bvm63ke.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
