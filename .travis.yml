@@ -38,8 +38,9 @@ before_script:
   - echo -e "\n84831b9409646a918e30573bab4c9c91346d8abd" > "$ANDROID_HOME/licenses/android-sdk-preview-license"
   - echo $TRAVIS_BRANCH
   - echo $TRAVIS_TAG
-script:
-  - "./gradlew assembleRelease"
+  - echo $GOOGLE_APPLICATION_CREDENTIALS | base64 -d | tee app/beta-crashlytics-7334a-fdfeaf9e88ef.json >/dev/null
 before_install:
-- openssl aes-256-cbc -K $encrypted_f3e09a047766_key -iv $encrypted_f3e09a047766_iv
+  - openssl aes-256-cbc -K $encrypted_f3e09a047766_key -iv $encrypted_f3e09a047766_iv
   -in beta-crashlytics.keystore.enc -out beta-crashlytics.keystore -d
+script:
+  - "./gradlew assembleRelease appDistributionUploadRelease"

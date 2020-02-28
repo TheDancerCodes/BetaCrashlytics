@@ -64,3 +64,6 @@ app/fabric.properties
 
 # Keystore file
 beta-crashlytics.keystore
+
+# Service Credentials File
+app/beta-crashlytics-7334a-fdfeaf9e88ef.json
