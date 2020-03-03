@@ -1,2 +1,2 @@
-Beta Crashlytics v1.0.0
+Beta Crashlytics v1.0.1
 - Testing that Firebase App Distribution using Travis CI works.
